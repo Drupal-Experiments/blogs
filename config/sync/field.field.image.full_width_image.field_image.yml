@@ -1,0 +1,38 @@
+uuid: 4547bd1c-e916-4eb5-8eae-bb11e28d3146
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.image.full_width_image
+    - field.storage.image.field_image
+  module:
+    - image
+id: image.full_width_image.field_image
+field_name: field_image
+entity_type: image
+bundle: full_width_image
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

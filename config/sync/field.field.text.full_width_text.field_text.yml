@@ -1,0 +1,22 @@
+uuid: 577f3672-169b-47ae-9ff1-12c35bbb3fca
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.full_width_text
+    - field.storage.text.field_text
+  module:
+    - text
+id: text.full_width_text.field_text
+field_name: field_text
+entity_type: text
+bundle: full_width_text
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,31 @@
+uuid: 0f714d08-da72-43e2-9dbe-d81343f61a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.text_element
+    - eck.eck_type.text.full_width_text
+    - eck.eck_type.text.half_width_text
+    - field.storage.element.field_content
+id: element.text_element.field_content
+field_name: field_content
+entity_type: element
+bundle: text_element
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:text'
+  handler_settings:
+    target_bundles:
+      full_width_text: full_width_text
+      half_width_text: half_width_text
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: full_width_text
+field_type: entity_reference

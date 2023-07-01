@@ -1,0 +1,41 @@
+uuid: caf12d03-3c62-4092-98d7-4bf65bc6592e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.row.row
+    - field.field.row.row.field_display_title
+    - field.field.row.row.field_element
+id: row.row.default
+targetEntityType: row
+bundle: row
+mode: default
+content:
+  field_display_title:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_element:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden: {  }

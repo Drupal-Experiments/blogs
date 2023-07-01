@@ -1,0 +1,38 @@
+uuid: 5477ddfe-86c3-438e-9bcc-98eb99686879
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.half_width_text
+    - field.field.text.half_width_text.field_alignment
+    - field.field.text.half_width_text.field_text
+  module:
+    - text
+id: text.half_width_text.default
+targetEntityType: text
+bundle: half_width_text
+mode: default
+content:
+  field_alignment:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

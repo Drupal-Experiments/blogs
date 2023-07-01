@@ -1,0 +1,9 @@
+uuid: 5c1ed904-30f0-4f94-8fe1-f9006976b901
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.text
+name: 'Half Width Text'
+type: half_width_text
+description: ''

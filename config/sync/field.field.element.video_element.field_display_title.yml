@@ -1,0 +1,21 @@
+uuid: 79b5d223-c156-435d-9a85-4df717c2a44c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.video_element
+    - field.storage.element.field_display_title
+id: element.video_element.field_display_title
+field_name: field_display_title
+entity_type: element
+bundle: video_element
+label: 'Display Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

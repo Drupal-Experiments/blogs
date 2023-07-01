@@ -1,0 +1,32 @@
+uuid: 04978279-97aa-48d0-b688-2cf657b16517
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.image.half_width_image
+    - field.field.image.half_width_image.field_image
+    - image.style.thumbnail
+  module:
+    - image
+id: image.half_width_image.default
+targetEntityType: image
+bundle: half_width_image
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,52 @@
+uuid: 81316b13-a954-4cf8-a7d9-474a65ab6032
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.text_element
+    - field.field.element.text_element.field_content
+    - field.field.element.text_element.field_display_title
+  module:
+    - inline_entity_form
+id: element.text_element.default
+targetEntityType: element
+bundle: text_element
+mode: default
+content:
+  field_content:
+    type: inline_entity_form_complex
+    weight: 4
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      auto_open: true
+      allow_new: true
+      allow_existing: true
+      allow_edit: true
+      match_operator: CONTAINS
+      allow_duplicate: false
+      hide_fieldset: false
+      hide_title: false
+      collapsible: false
+      collapsed: false
+      revision: false
+      removed_reference: optional
+      config_labels_button: simple_label
+      labels:
+        label_singular_full_width_text: ''
+        label_plural_full_width_text: ''
+        label_singular_half_width_text: ''
+        label_plural_half_width_text: ''
+      auto_open_edit_form: 0
+    third_party_settings: {  }
+  field_display_title:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

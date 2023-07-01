@@ -1,0 +1,9 @@
+uuid: eb9e927d-6de9-45ce-a0f2-3b52b5b56143
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.text
+name: 'Full Width Text'
+type: full_width_text
+description: ''

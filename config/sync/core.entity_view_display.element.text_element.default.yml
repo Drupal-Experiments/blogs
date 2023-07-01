@@ -1,0 +1,33 @@
+uuid: 37078c00-152a-4a02-bd8b-84c88b44bb8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.text_element
+    - field.field.element.text_element.field_content
+    - field.field.element.text_element.field_display_title
+id: element.text_element.default
+targetEntityType: element
+bundle: text_element
+mode: default
+content:
+  field_content:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_display_title:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

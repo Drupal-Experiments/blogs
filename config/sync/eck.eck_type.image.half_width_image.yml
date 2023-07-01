@@ -1,0 +1,9 @@
+uuid: fe62c214-4a00-41a0-ac70-d55a5118997b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.image
+name: 'Half Width Image'
+type: half_width_image
+description: ''

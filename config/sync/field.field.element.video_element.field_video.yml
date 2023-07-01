@@ -1,0 +1,28 @@
+uuid: b119883a-6ba7-4c1b-b56f-0b8607384960
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.video_element
+    - field.storage.element.field_video
+id: element.video_element.field_video
+field_name: field_video
+entity_type: element
+bundle: video_element
+label: Video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:element'
+  handler_settings:
+    target_bundles:
+      video_element: video_element
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

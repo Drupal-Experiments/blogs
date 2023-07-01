@@ -1,0 +1,21 @@
+uuid: e9ef4f26-6b8e-4f48-9ba0-fdafe39ef907
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.text_element
+    - field.storage.element.field_display_title
+id: element.text_element.field_display_title
+field_name: field_display_title
+entity_type: element
+bundle: text_element
+label: 'Display Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

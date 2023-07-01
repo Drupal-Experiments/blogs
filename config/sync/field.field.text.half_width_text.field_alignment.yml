@@ -1,0 +1,21 @@
+uuid: 0f7b65d2-a59d-4a2d-a4f0-79a3079e871e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.half_width_text
+    - field.storage.text.field_alignment
+  module:
+    - options
+id: text.half_width_text.field_alignment
+field_name: field_alignment
+entity_type: text
+bundle: half_width_text
+label: Alignment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

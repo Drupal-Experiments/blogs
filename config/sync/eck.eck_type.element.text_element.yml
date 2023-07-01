@@ -1,0 +1,9 @@
+uuid: 9b8e9511-b026-495a-89a3-49315864d85c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.element
+name: 'Text Element'
+type: text_element
+description: ''

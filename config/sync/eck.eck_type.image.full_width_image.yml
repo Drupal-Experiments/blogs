@@ -1,0 +1,9 @@
+uuid: bd0c474c-d9cf-457c-a53d-3ffe055bf558
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.image
+name: 'Full Width Image'
+type: full_width_image
+description: ''

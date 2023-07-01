@@ -1,0 +1,20 @@
+uuid: f241aa73-0fe1-4fa0-9466-593c92fced76
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+id: node.field_row
+field_name: field_row
+entity_type: node
+type: entity_reference
+settings:
+  target_type: row
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

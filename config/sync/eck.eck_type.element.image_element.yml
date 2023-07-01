@@ -1,0 +1,9 @@
+uuid: 9576e0ee-fc51-4b03-8514-74e177fbb428
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.element
+name: 'Image Element'
+type: image_element
+description: ''

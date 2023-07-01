@@ -1,0 +1,33 @@
+uuid: a37f47bc-f661-458a-8b84-a46163966adf
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.image_element
+    - eck.eck_type.element.text_element
+    - eck.eck_type.element.video_element
+    - eck.eck_type.row.row
+    - field.storage.row.field_element
+id: row.row.field_element
+field_name: field_element
+entity_type: row
+bundle: row
+label: Element
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:element'
+  handler_settings:
+    target_bundles:
+      image_element: image_element
+      text_element: text_element
+      video_element: video_element
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image_element
+field_type: entity_reference

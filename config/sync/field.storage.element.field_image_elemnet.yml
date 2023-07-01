@@ -1,0 +1,19 @@
+uuid: e5efa92d-2c04-4d00-9321-5717b4c9c18d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: element.field_image_elemnet
+field_name: field_image_elemnet
+entity_type: element
+type: entity_reference
+settings:
+  target_type: image
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

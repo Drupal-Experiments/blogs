@@ -1,0 +1,22 @@
+uuid: 6cec9b4c-1013-45f5-8e5f-b3c504cf3077
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.half_width_text
+    - field.storage.text.field_text
+  module:
+    - text
+id: text.half_width_text.field_text
+field_name: field_text
+entity_type: text
+bundle: half_width_text
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

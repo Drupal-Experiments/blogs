@@ -1,0 +1,10 @@
+uuid: 67c32862-46c5-4e12-8eeb-eab17b0f60b1
+langcode: en
+status: false
+dependencies: {  }
+id: text
+label: Text
+uid: false
+created: false
+changed: false
+title: true

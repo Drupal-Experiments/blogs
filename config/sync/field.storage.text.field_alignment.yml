@@ -1,0 +1,27 @@
+uuid: d708f101-2514-48ae-8ccf-4f31699e52e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - options
+id: text.field_alignment
+field_name: field_alignment
+entity_type: text
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Left
+      label: Left
+    -
+      value: Right
+      label: Right
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,39 @@
+uuid: bcc89a15-0322-4c10-a0fa-ff4fd851272a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.video_element
+    - field.field.element.video_element.field_display_title
+    - field.field.element.video_element.field_video
+id: element.video_element.default
+targetEntityType: element
+bundle: video_element
+mode: default
+content:
+  field_display_title:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_video:
+    type: entity_reference_autocomplete
+    weight: 6
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

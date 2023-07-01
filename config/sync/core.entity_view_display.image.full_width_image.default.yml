@@ -1,0 +1,34 @@
+uuid: d66c27da-0202-4a13-a2dd-a604f2286739
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.image.full_width_image
+    - field.field.image.full_width_image.field_image
+  module:
+    - image
+id: image.full_width_image.default
+targetEntityType: image
+bundle: full_width_image
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden: {  }

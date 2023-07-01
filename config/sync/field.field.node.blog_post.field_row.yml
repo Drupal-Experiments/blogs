@@ -1,0 +1,29 @@
+uuid: 68bd86cc-ac2b-46f4-a844-0ac857a5bc74
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.row.row
+    - field.storage.node.field_row
+    - node.type.blog_post
+id: node.blog_post.field_row
+field_name: field_row
+entity_type: node
+bundle: blog_post
+label: Row
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:row'
+  handler_settings:
+    target_bundles:
+      row: row
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

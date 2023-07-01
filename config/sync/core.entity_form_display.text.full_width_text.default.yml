@@ -1,0 +1,31 @@
+uuid: 664eb519-cb2c-4a12-82db-d5efff24b331
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.full_width_text
+    - field.field.text.full_width_text.field_text
+  module:
+    - text
+id: text.full_width_text.default
+targetEntityType: text
+bundle: full_width_text
+mode: default
+content:
+  field_text:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

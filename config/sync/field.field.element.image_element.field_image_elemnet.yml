@@ -1,0 +1,21 @@
+uuid: b67b28c7-a833-4694-8fdc-d55a476bb1f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.image_element
+    - field.storage.element.field_image_elemnet
+id: element.image_element.field_image_elemnet
+field_name: field_image_elemnet
+entity_type: element
+bundle: image_element
+label: 'Image Elemnet'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:image'
+  handler_settings: {  }
+field_type: entity_reference

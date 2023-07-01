@@ -1,0 +1,9 @@
+uuid: 6fb4bd6e-8c5a-43a4-af30-8f6a4a0aa294
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.row
+name: Row
+type: row
+description: ''

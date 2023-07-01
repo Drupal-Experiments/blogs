@@ -1,0 +1,40 @@
+uuid: 1aa3c6d3-6686-4899-838d-7ce1d4ba03a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.element.video_element
+    - field.field.element.video_element.field_display_title
+    - field.field.element.video_element.field_video
+id: element.video_element.default
+targetEntityType: element
+bundle: video_element
+mode: default
+content:
+  field_display_title:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_video:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden: {  }

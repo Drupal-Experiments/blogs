@@ -1,0 +1,39 @@
+uuid: d6523a2f-0700-46ce-a013-d10b815ea17c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.text.half_width_text
+    - field.field.text.half_width_text.field_alignment
+    - field.field.text.half_width_text.field_text
+  module:
+    - options
+    - text
+id: text.half_width_text.default
+targetEntityType: text
+bundle: half_width_text
+mode: default
+content:
+  field_alignment:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden: {  }
